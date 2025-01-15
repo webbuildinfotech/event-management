@@ -1,8 +1,6 @@
 import * as React from 'react';
 import Chart from 'react-apexcharts';
 import { Row, Col, Card } from 'react-bootstrap';
-import monthlyProfit1 from './chart/monthly-profit-1';
-import monthlyProfit2 from './chart/monthly-profit-2';
 import monthlyProfit3 from './chart/monthly-profit-3';
 const Dashboard = () => {
     return (<>
@@ -129,34 +127,8 @@ const Dashboard = () => {
                     </Card>
                 </Col>
 
-                <Col md={12} lg={4}>
-                    <Card>
-                        <Card.Body className="text-center">
-                            <i className="fas fa-procedures text-c-blue d-block f-40"/>
-                            <h4 className="m-t-20 m-b-20">
-                                <span className="text-c-blue">8.62k</span> Operation
-                            </h4>
-                            <button className="btn btn-primary btn-sm btn-round" data-toggle="modal" data-title="Operation" data-target="#modal-report">
-                                View Report
-                            </button>
-                        </Card.Body>
-                        <Chart {...monthlyProfit1}/>
-                    </Card>
-                </Col>
-                <Col md={12} lg={4}>
-                    <Card>
-                        <Card.Body className="text-center">
-                            <i className="fas fa-skull-crossbones text-c-green d-block f-40"></i>
-                            <h4 className="m-t-20 m-b-20">
-                                <span className="text-c-green">+40</span> Death
-                            </h4>
-                            <button className="btn btn-success btn-sm btn-round" data-toggle="modal" data-title="Death" data-target="#modal-report">
-                                View Report
-                            </button>
-                        </Card.Body>
-                        <Chart {...monthlyProfit2}/>
-                    </Card>
-                </Col>
+          
+               
                 <Col md={12} lg={4}>
                     <Card>
                         <Card.Body className="text-center">

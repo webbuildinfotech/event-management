@@ -27,20 +27,11 @@ import powerCard2 from './chart/power-card-2';
 import powerCard3 from './chart/power-card-3';
 import revenueMap from './chart/revenue-map';
 import projectEarning from './chart/project-earning';
-import seoAnalytics1 from './chart/seo-analytics-1';
-import seoAnalytics2 from './chart/seo-analytics-2';
-import seoAnalytics3 from './chart/seo-analytics-3';
-import seoAnalytics4 from './chart/seo-analytics-4';
 import totalValueGraph1 from './chart/total-value-gragh-1';
 import totalValueGraph2 from './chart/total-value-gragh-2';
 import totalValueGraph3 from './chart/total-value-gragh-3';
 import totalValueGraph4 from './chart/total-value-gragh-4';
-import monthlyProfilt1 from './chart/monthly-profit-1';
-import monthlyProfilt2 from './chart/monthly-profit-2';
 import monthlyProfilt3 from './chart/monthly-profit-3';
-import seoChart1 from './chart/seo-chart-1';
-import seoChart2 from './chart/seo-chart-2';
-import seoChart3 from './chart/seo-chart-3';
 import clientMap1 from './chart/client-map-1';
 import clientMap2 from './chart/client-map-2';
 import clientMap3 from './chart/client-map-3';
@@ -575,43 +566,6 @@ const WdgetChart = () => {
                 </Col>
 
                 <Col md={6} xl={3}>
-                    <Card>
-                        <Card.Body>
-                            <h3>20500</h3>
-                            <p className="text-muted">Site Analysis</p>
-                            <Chart {...seoAnalytics1}/>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} xl={3}>
-                    <Card>
-                        <Card.Body>
-                            <h3>20500</h3>
-                            <p className="text-muted">Total Sales</p>
-                            <Chart {...seoAnalytics2}/>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} xl={3}>
-                    <Card>
-                        <Card.Body>
-                            <h3>28000</h3>
-                            <p className="text-muted">Total Visits</p>
-                            <Chart {...seoAnalytics3}/>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} xl={3}>
-                    <Card>
-                        <Card.Body>
-                            <h3>59600</h3>
-                            <p className="text-muted">Total Usage</p>
-                            <Chart {...seoAnalytics4}/>
-                        </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col md={6} xl={3}>
                     <Card className="bg-c-blue total-card">
                         <Card.Body>
                             <span className="badge badge-light float-right">12%</span>
@@ -660,48 +614,7 @@ const WdgetChart = () => {
                     </Card>
                 </Col>
 
-                <Col md={6} xl={4}>
-                    <Card>
-                        <Card.Body>
-                            <h2 className="text-center f-w-400 ">$45,567</h2>
-                            <p className="text-center text-muted ">Monthly Profit</p>
-                            <Chart {...monthlyProfilt1}/>
-                            <div className="m-t-20">
-                                <Row>
-                                    <Col className="text-center ">
-                                        <h6 className="f-20 f-w-400">$6,234</h6>
-                                        <p className="text-muted f-14 m-b-0">Today</p>
-                                    </Col>
-                                    <Col className="text-center ">
-                                        <h6 className="f-20 f-w-400">$4,387</h6>
-                                        <p className="text-muted f-14 m-b-0">Yesterday</p>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} xl={4}>
-                    <Card>
-                        <Card.Body>
-                            <h2 className="text-center f-w-400 ">2,413</h2>
-                            <p className="text-center text-muted ">Total Sales</p>
-                            <Chart {...monthlyProfilt2}/>
-                            <div className="m-t-20">
-                                <Row>
-                                    <Col className="text-center ">
-                                        <h6 className="f-20 f-w-400">1578</h6>
-                                        <p className="text-muted f-14 m-b-0">Today</p>
-                                    </Col>
-                                    <Col className="text-center ">
-                                        <h6 className="f-20 f-w-400">1028</h6>
-                                        <p className="text-muted f-14 m-b-0">Yesterday</p>
-                                    </Col>
-                                </Row>
-                            </div>
-                        </Card.Body>
-                    </Card>
-                </Col>
+             
                 <Col md={6} xl={4}>
                     <Card>
                         <Card.Body>
@@ -724,57 +637,7 @@ const WdgetChart = () => {
                     </Card>
                 </Col>
 
-                <Col md={6} xl={4}>
-                    <Card>
-                        <Card.Body>
-                            <Row className="align-items-center">
-                                <Col>
-                                    <h3>$16,756</h3>
-                                    <h6 className="text-muted m-b-0">
-                                        Visits<i className="fa fa-caret-down text-c-red m-l-10"></i>
-                                    </h6>
-                                </Col>
-                                <Col>
-                                    <Chart {...seoChart1}/>
-                                </Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} xl={4}>
-                    <Card>
-                        <Card.Body>
-                            <Row className="align-items-center">
-                                <Col>
-                                    <h3>49.54%</h3>
-                                    <h6 className="text-muted m-b-0">
-                                        Bounce Rate<i className="fa fa-caret-up text-c-green m-l-10"></i>
-                                    </h6>
-                                </Col>
-                                <Col>
-                                    <Chart {...seoChart2}/>
-                                </Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={6} xl={4}>
-                    <Card>
-                        <Card.Body>
-                            <Row className="align-items-center">
-                                <Col>
-                                    <h3>1,62,564</h3>
-                                    <h6 className="text-muted m-b-0">
-                                        Products<i className="fa fa-caret-down text-c-red m-l-10"></i>
-                                    </h6>
-                                </Col>
-                                <Col>
-                                    <Chart {...seoChart3}/>
-                                </Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-                </Col>
+        
 
                 <Col md={6} xl={4}>
                     <Card className="client-map">

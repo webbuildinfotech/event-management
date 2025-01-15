@@ -1,6 +1,6 @@
 const Config = {
-    defaultPath: '/dashboard/default',
-    basename: '/react/default',
+    defaultPath: '/dashboard',
+    basename: '/crm',
     layout: 'vertical',
     subLayout: '',
     collapseMenu: false,

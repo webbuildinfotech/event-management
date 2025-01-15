@@ -91,18 +91,6 @@ const NavContent = (props) => {
                 <PerfectScrollbar options={{ wheelSpeed: 2, swipeEasing: true }}>
                     <ul className="nav pcoded-inner-navbar" id="nav-ps-next">
                         {navItems}
-                        <li>
-                            <Card className="text-center">
-                                <Card.Body>
-                                    <i className="feather icon-sunset f-40"/>
-                                    <h6 className="mt-3">Help?</h6>
-                                    <p>Please contact us on our email for need any support</p>
-                                    <a href={DEMO.BLANK_LINK} rel="noopener noreferrer" className="btn btn-primary btn-sm text-white m-0">
-                                        Support
-                                    </a>
-                                </Card.Body>
-                            </Card>
-                        </li>
                     </ul>
                 </PerfectScrollbar>
             </div>);
